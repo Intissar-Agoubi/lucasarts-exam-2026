@@ -10,6 +10,7 @@ public class CharacterMemLocalDataSource {
 
     public CharacterMemLocalDataSource() {
     }
+
     ArrayList<CharacterModel> storage =new ArrayList<>();
     void save(CharacterModel characterModel){
         storage.add(characterModel);
